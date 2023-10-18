@@ -9,7 +9,7 @@ Automatic Speech Recognition (ASR) systems typically generate text with no punct
 * whether the word should be capitalized
 
 ## System Requirements:
-* Opeating System: Ubuntu 22.04
+* Operating System: Ubuntu 22.04
 * CPU requirements: None, tested with Intel&reg; Xeon&reg; Gold 6240R CPU @ 2.40GHz
 * GPU requirements: Any NVIDIA training GPU, tested with NVIDIA A100-40GB
 * NVIDIA driver requirements: Latest driver version
