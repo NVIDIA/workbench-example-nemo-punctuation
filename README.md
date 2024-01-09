@@ -1,6 +1,8 @@
 # NVIDIA AI Workbench: Introduction
 This is an [NVIDIA AI Workbench](https://developer.nvidia.com/blog/develop-and-deploy-scalable-generative-ai-models-seamlessly-with-nvidia-ai-workbench/) example Project that demonstrates how to train a Large Language Model to annotate large sections of text with realistic punctuation and capitalization using the NeMo Framework. We will conduct data preprocessing, model configuration, model training, and model inference on new text to evaluate performance. Users in the [AI Workbench Early Access Program](https://developer.nvidia.com/ai-workbench-early-access) can get up and running with this Project in minutes.
 
+Have questions? Please direct any issues, fixes, suggestions, and discussion on this project to the DevZone Members Only Forum thread [here](https://forums.developer.nvidia.com/t/support-workbench-example-project-nemo-punctuation/278371). 
+
 ## Project Description
 Automatic Speech Recognition (ASR) systems typically generate text with no punctuation and capitalization of the words. This tutorial explains how to implement a model in NeMo that will predict punctuation and capitalization for each word in a sentence to make ASR output more readable and to boost performance of the named entity recognition, machine translation or text-to-speech models. We'll show how to train a model for this task using a pre-trained BERT model. For every word in our training dataset we’re going to predict:
 
